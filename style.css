@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.menu img{
+    width: 150px;
+}
+.menu{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: fixed;
+    z-index: 1000; */
+   
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.menu ul li{
+    align-items: center;
+   margin:0 20px 0 20px ;
+}
+
+/* Home Town image */
+.action-home{
+    position: relative; /* for overlay */
+    width:100%;
+    height: 100%;
+    padding-left: 50px;
+    
+}
+.overlay{
+    position: absolute;
+    top: 100px;
+    background-color: rgba(128, 128, 128, 0.199);
+    width: fit-content;
+    margin-left: 60px;
+    border-radius: 20px;
+
+}
+.overlay h1{
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+
+
+}
+.overlay h1 :hover{
+    color: orangered;
+}
+.overlay h1 span{
+    color: orangered;
+
+}
+.overlay button{
+    margin-left: 100px;
+    width: fit-content;
+    padding: 6px 6px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+
+/* explore-property  */
+.explore-heading{
+    text-align: center;
+    font-weight: 900;
+    margin: 20px;
+    color: orangered;
+    font-size: 24px;
+}
+
+.explore-property{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    margin: auto;
+}
+.pro-1{
+   width: 400px;
+   
+}
+.pro-1 div{
+    background-color: rgba(0, 0, 0, 0.626);
+    position: relative;
+    bottom: 100px;
+    padding: 23px;
+    color: aliceblue;
+}
+.pro-1 div p span{
+    color: orangered;
+}
+
+.pro-2 div{
+    background-color: rgba(0, 0, 0, 0.626);
+    position: relative;
+    bottom: 100px;
+    padding: 23px;
+    color: aliceblue;
+}
+.pro-2 div p span{
+    color: orangered;
+}
+.pro-3{
+    position: relative;
+    bottom: 100px;
+}
+.pro-3 div{
+    background-color: rgba(0, 0, 0, 0.626);
+    position: relative;
+    bottom: 100px;
+    padding: 23px;
+    color: aliceblue;
+}
+.pro-3 div p span{
+    color: orangered;
+}
+
+/* Footer */
+.touch{
+    margin:  10px 0;
+    background-color: orangered;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-content:space-evenly;
+}
+.touch input{
+   border-radius: 5px;
+   border-width: 5px solid ;
+   margin-left: 10px;
+}
